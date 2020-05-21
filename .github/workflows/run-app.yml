@@ -4,8 +4,6 @@
 name: Scheduled Refresh of Data
 
 on:
-  push:
-    branches: [ master ]
   schedule:
     - cron:  '* */4 * * *'
 
@@ -24,10 +22,10 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         if [ -f ./src/requirements.txt ]; then pip install -r ./src/requirements.txt; fi
-    - name: Lint with flake8
+    - name: Run Python application
       run: |
         python ./src/india_analysis.py
-    - name: Push to built branch
+    - name: Push to master branch
       uses: Automattic/action-commit-to-branch@master
       with:
         branch: 'master'
