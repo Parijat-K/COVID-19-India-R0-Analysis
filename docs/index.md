@@ -1,6 +1,6 @@
 ## Statewise Comparison of realtime *R<sub>t</sub>* and Growth rate of Confirmed cases
 
-<iframe src="output.html" width="950" height="550"></iframe>
+<iframe src="output.html" style="width:100%; height:550px;"></iframe>
 
 
 ### What is *R<sub>t</sub>*?
