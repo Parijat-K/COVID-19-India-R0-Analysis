@@ -1,15 +1,17 @@
-## Statewise Comparison of realtime $R_t$ and Growth rate of Confirmed cases
+## Statewise Comparison of realtime ![$R_t$](https://render.githubusercontent.com/render/math?math=%24R_t%24) and Growth rate of Confirmed cases
 
 <iframe src="output.html" width="950" height="550"></iframe>
 
 
-### What is $R_t$?
-In any epidemic, $R_t$ is the measure known as the effective reproduction number. It's the number of people who become infected per infectious person at time $t$. The most well-known version of this number is the basic reproduction number: $R_0$ when $t=0$. However, $R_0$ is a single measure that does not adapt with changes in behavior and restrictions.
+### What is ![$R_t$](https://render.githubusercontent.com/render/math?math=%24R_t%24)?
+In any epidemic, ![$R_t$](https://render.githubusercontent.com/render/math?math=%24R_t%24) is the measure known as the effective reproduction number. It's the number of people who become infected per infectious person at time ![$t$](https://render.githubusercontent.com/render/math?math=%24t%24). The most well-known version of this number is the basic reproduction number: ![$R_0$](https://render.githubusercontent.com/render/math?math=%24R_0%24) when ![$t=0$](https://render.githubusercontent.com/render/math?math=%24t%3D0%24). However, ![$R_0$](https://render.githubusercontent.com/render/math?math=%24R_0%24) is a single measure that does not adapt with changes in behavior and restrictions.
 
 ### How does it help?
-As a pandemic evolves, increasing restrictions (or potential releasing of restrictions) changes $R_t$. Knowing the current $R_t$ is essential. When $R\gg1$, the pandemic will spread through a large part of the population. If $R_t<1$, the pandemic will slow quickly before it has a chance to infect many people. The lower the $R_t$: the more manageable the situation. In general, any $R_t<1$ means things are under control.
+As a pandemic evolves, increasing restrictions (or potential releasing of restrictions) changes ![$R_t$](https://render.githubusercontent.com/render/math?math=%24R_t%24). Knowing the current ![$R_t$](https://render.githubusercontent.com/render/math?math=%24R_t%24) is essential. When ![$R\gg1$](https://render.githubusercontent.com/render/math?math=%24R%5Cgg1%24), the pandemic will spread through a large part of the population. If ![$R_t\lt1$](https://render.githubusercontent.com/render/math?math=%24R_t%5Clt1%24), the pandemic will slow quickly before it has a chance to infect many people. The lower the ![$R_t$](https://render.githubusercontent.com/render/math?math=%24R_t%24): the more manageable the situation. In general, any ![$R_t\lt1$](https://render.githubusercontent.com/render/math?math=%24R_t%5Clt1%24) means things are under control.
 
-The value of $R_t$ helps us in two ways. (1) It helps us understand how effective our measures have been controlling an outbreak and (2) it gives us vital information about whether we should increase or reduce restrictions based on our competing goals of economic prosperity and human safety. [Well-respected epidemiologists argue](https://www.nytimes.com/2020/04/06/opinion/coronavirus-end-social-distancing.html) that tracking $R_t$ is the only way to manage through this crisis.
+The value of ![$R_t$](https://render.githubusercontent.com/render/math?math=%24R_t%24) helps us in two ways. 
+  1. It helps us understand how effective our measures have been controlling an outbreak
+  2. it gives us vital information about whether we should increase or reduce restrictions based on our competing goals of economic prosperity and human safety. [Well-respected epidemiologists argue](https://www.nytimes.com/2020/04/06/opinion/coronavirus-end-social-distancing.html) that tracking $R_t$ is the only way to manage through this crisis.
 
 ### Credits
   - This work is based on [Estimating COVID-19's $R_t$ in Real-Time](https://github.com/k-sys/covid-19/blob/master/Realtime%20R0.ipynb) By Kevin Systrom
