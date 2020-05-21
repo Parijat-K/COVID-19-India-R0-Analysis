@@ -14,7 +14,7 @@ The value of ![$R_t$](https://render.githubusercontent.com/render/math?math=%24R
   2. it gives us vital information about whether we should increase or reduce restrictions based on our competing goals of economic prosperity and human safety. [Well-respected epidemiologists argue](https://www.nytimes.com/2020/04/06/opinion/coronavirus-end-social-distancing.html) that tracking $R_t$ is the only way to manage through this crisis.
 
 ### Credits
-  - This work is based on [Estimating COVID-19's $R_t$ in Real-Time](https://github.com/k-sys/covid-19/blob/master/Realtime%20R0.ipynb) By Kevin Systrom
+  - This work is based on [Estimating COVID-19's R0 in Real-Time](https://github.com/k-sys/covid-19/blob/master/Realtime%20R0.ipynb) By Kevin Systrom
   - Special thanks to [Thejesh GN](https://thejeshgn.com) for collecting and maintaining the State wise COVID-19 data from the [Ministry of Health and Family Welfare, Government of India](https://www.mohfw.gov.in/) website.
 
 ### Disclaimer
