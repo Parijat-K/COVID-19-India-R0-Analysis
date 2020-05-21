@@ -373,4 +373,4 @@ fig.update_layout(
 fig.update_yaxes(range=[0, 9], col=1)
 fig.update_yaxes(range=[0, 1.1], type="log", col=2)
 # fig.show()
-fig.write_html("output.html", include_plotlyjs='cdn', full_html='false')
+fig.write_html("../docs/output.html", include_plotlyjs='cdn', full_html='false')
