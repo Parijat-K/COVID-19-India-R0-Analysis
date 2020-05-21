@@ -12,8 +12,8 @@ As a pandemic evolves, increasing restrictions (or potential releasing of restri
 The value of $R_t$ helps us in two ways. (1) It helps us understand how effective our measures have been controlling an outbreak and (2) it gives us vital information about whether we should increase or reduce restrictions based on our competing goals of economic prosperity and human safety. [Well-respected epidemiologists argue](https://www.nytimes.com/2020/04/06/opinion/coronavirus-end-social-distancing.html) that tracking $R_t$ is the only way to manage through this crisis.
 
 ### Credits
-This work is based on [Estimating COVID-19's $R_t$ in Real-Time](https://github.com/k-sys/covid-19/blob/master/Realtime%20R0.ipynb) By Kevin Systrom
-Special thanks to [Thejesh GN](https://thejeshgn.com) for collecting and maintaining the State wise COVID-19 data from the [Ministry of Health and Family Welfare, Government of India](https://www.mohfw.gov.in/) website.
+  - This work is based on [Estimating COVID-19's $R_t$ in Real-Time](https://github.com/k-sys/covid-19/blob/master/Realtime%20R0.ipynb) By Kevin Systrom
+  - Special thanks to [Thejesh GN](https://thejeshgn.com) for collecting and maintaining the State wise COVID-19 data from the [Ministry of Health and Family Welfare, Government of India](https://www.mohfw.gov.in/) website.
 
 ### Disclaimer
 I'm not an Epidemiologist or scientist. I have only applied a modified version of a solution created by [Bettencourt & Ribeiro 2008](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0002185) to estimate real-time $R_t$ using a Bayesian approach. While this paper estimates a static $R$ value, here we introduce a process model with Gaussian noise to estimate a time-varying $R_t$.
