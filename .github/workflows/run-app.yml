@@ -29,7 +29,7 @@ jobs:
         git config --local user.email "khanparijat@gmail.com"
         git config --local user.name "Parijat29"
         git add ./docs
-        git commit -m "Scheduled buid output"
+        git commit -m "Scheduled build output"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
