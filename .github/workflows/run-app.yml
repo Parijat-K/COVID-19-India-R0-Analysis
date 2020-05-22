@@ -25,6 +25,7 @@ jobs:
     - name: Run Python application
       run: |
         python ./src/india_analysis.py
+        git add .
     - name: Push to master branch
       uses: Automattic/action-commit-to-branch@master
       with:
