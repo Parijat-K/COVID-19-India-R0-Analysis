@@ -24,11 +24,15 @@ jobs:
     - name: Run Python application
       run: |
         python ./src/india_analysis.py
-    #    git add .
-    #- name: Push to master branch
-    #  uses: Automattic/action-commit-to-branch@master
-    #  with:
-    #    branch: 'master'
-    #    commit_message: 'Scheduled Build'
-    #  env:
-    #    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Required
+    - name: Commit file
+      run: |
+        git config --local user.email "khanparijat@gmail.com"
+        git config --local user.name "Parijat29"
+        git add ./docs
+        git commit -m "Scheduled buid output"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        branch: 'master'
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        force: true
