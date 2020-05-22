@@ -17,19 +17,23 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: 3.6
+
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         if [ -f ./src/requirements.txt ]; then pip install -r ./src/requirements.txt; fi
+    
     - name: Run Python application
       run: |
         python ./src/india_analysis.py
+    
     - name: Commit file
       run: |
         git config --local user.email "khanparijat@gmail.com"
         git config --local user.name "Parijat29"
         git add ./docs
         git commit -m "Scheduled build output"
+    
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
