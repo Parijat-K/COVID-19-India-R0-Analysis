@@ -19,7 +19,7 @@ The value of ![$R_0$](https://render.githubusercontent.com/render/math?math=%24R
   - Few States and United Territories might be missing in the chart. That is due to either insufficient data or very few confirmed cases in those areas.
 
 ### Credits
-  - This work is based on [Estimating COVID-19's *R<sub>t</sub>* in Real-Time](https://github.com/k-sys/covid-19/blob/master/Realtime%20R0.ipynb) By Kevin Systrom
+  - This work is based on [Estimating COVID-19's *R<sub>t</sub>* in Real-Time](https://github.com/k-sys/covid-19/blob/master/Realtime%20R0.ipynb) By [Kevin Systrom](https://github.com/k-sys)
   - Special thanks to [Thejesh GN](https://thejeshgn.com) for collecting and maintaining the State wise COVID-19 data from the [Ministry of Health and Family Welfare, Government of India](https://www.mohfw.gov.in/) website.
 
 ### Disclaimer
