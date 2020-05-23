@@ -1,9 +1,8 @@
 ## Statewise Comparison of realtime *R<sub>t</sub>* and Growth rate of Confirmed cases
 
-<iframe src="output.html" style="width:100%; height:550px;"></iframe>
+<iframe src="output.html" style="width:100%; height:550px;"></iframe>  
 
-![Scheduled Refresh of Data](https://github.com/Parijat29/COVID-19-India-R0-Analysis/workflows/Scheduled%20Refresh%20of%20Data/badge.svg)
-
+![Scheduled Refresh of Data](https://github.com/Parijat29/COVID-19-India-R0-Analysis/workflows/Scheduled%20Refresh%20of%20Data/badge.svg)  
 *This chart refreshed multiple times each day and is in sync with current data.*
 
 ### What is *R<sub>t</sub>*?
