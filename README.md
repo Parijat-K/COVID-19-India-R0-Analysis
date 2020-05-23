@@ -3,6 +3,9 @@
 
 [Link to Dashboard](https://parijat29.github.io/COVID-19-India-R0-Analysis/)
 
+### Data Refresh
+The chart is generated daily multiple times using GitHub actions. It is scheduled to run every 6th hour as per UTC timezone.
+
 ### What is *R<sub>t</sub>*?
 In any epidemic, ![$R_t$](https://render.githubusercontent.com/render/math?math=%24R_t%24) is the measure known as the effective reproduction number. It's the number of people who become infected per infectious person at time ***t***. The most well-known version of this number is the basic reproduction number: ![$R_0$](https://render.githubusercontent.com/render/math?math=%24R_0%24) when ![$t=0$](https://render.githubusercontent.com/render/math?math=%24t%3D0%24). However, ![$R_0$](https://render.githubusercontent.com/render/math?math=%24R_0%24) is a single measure that does not adapt with changes in behavior and restrictions.
 
