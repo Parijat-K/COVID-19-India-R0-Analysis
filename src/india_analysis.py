@@ -293,6 +293,9 @@ def make_log_plot(state_name, visible=True):
 fig = make_subplots(rows=1, cols=2)
 updatemenu=[]
 buttons=[]
+
+final_results.to_csv('./docs/state_wise_time_series_r0.csv')
+
 visibility = [False] * len(final_results.groupby('state')) * 4
 for i, (state_name, result) in enumerate(final_results.groupby('state')):
     try:
