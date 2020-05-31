@@ -26,6 +26,7 @@ jobs:
     - name: Run Python application
       run: |
         python ./src/india_analysis.py
+        jupyter nbconvert --output-dir='./docs' --to html "src/Realtime R0 India.ipynb"
     
     - name: Commit file
       run: |
