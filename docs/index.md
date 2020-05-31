@@ -23,3 +23,5 @@ The value of ![$R_0$](https://render.githubusercontent.com/render/math?math=%24R
 
 ### Disclaimer
 I'm not an Epidemiologist or scientist. I have only applied a modified version of a solution created by [Bettencourt & Ribeiro 2008](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0002185) to estimate real-time ![$R_0$](https://render.githubusercontent.com/render/math?math=%24R_0%24) using a Bayesian approach. While this paper estimates a static ***R*** value, here we introduce a process model with Gaussian noise to estimate a time-varying ![$R_0$](https://render.githubusercontent.com/render/math?math=%24R_0%24).
+
+For a step by step calculation, please see this ![page](./step_by_step_calculation.html)
