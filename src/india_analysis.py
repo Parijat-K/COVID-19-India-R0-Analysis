@@ -294,6 +294,7 @@ fig = make_subplots(rows=1, cols=2)
 updatemenu=[]
 buttons=[]
 
+print("Storing final results as csv file")
 final_results.to_csv('./docs/state_wise_time_series_r0.csv')
 
 visibility = [False] * len(final_results.groupby('state')) * 4
@@ -376,4 +377,6 @@ fig.update_layout(
 fig.update_yaxes(range=[0, 9], col=1)
 fig.update_yaxes(range=[0, 1.1], type="log", col=2)
 # fig.show()
+print("Saving chart as output html file")
 fig.write_html("./docs/output.html", include_plotlyjs='cdn', full_html='false')
+print("All steps completed...")
