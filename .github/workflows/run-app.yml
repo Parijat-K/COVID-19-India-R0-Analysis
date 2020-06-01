@@ -4,7 +4,7 @@ name: Scheduled Refresh of Data
 
 on:
   schedule:
-    - cron:  '0 */6 * * *'
+    - cron:  '*/5 * * * *'
 
 jobs:
   build:
@@ -32,7 +32,7 @@ jobs:
       run: |
         git config --local user.email "khanparijat@gmail.com"
         git config --local user.name "Parijat29"
-        git add -A
+        git add docs -f
         git commit -m "Scheduled build output"
     
     - name: Push changes
