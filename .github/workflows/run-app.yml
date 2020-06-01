@@ -26,13 +26,13 @@ jobs:
     - name: Run Python application
       run: |
         python ./src/india_analysis.py
-        jupyter nbconvert --output-dir='./docs' --to html "src/Realtime R0 India.ipynb"
+        jupyter nbconvert --output-dir='./docs' --to html "./src/Realtime R0 India.ipynb"
     
     - name: Commit file
       run: |
         git config --local user.email "khanparijat@gmail.com"
         git config --local user.name "Parijat29"
-        git add ./docs
+        git add -A
         git commit -m "Scheduled build output"
     
     - name: Push changes
