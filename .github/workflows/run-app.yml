@@ -27,7 +27,7 @@ jobs:
       run: |
         rm docs/state_wise_time_series_r0.csv
         python ./src/india_analysis.py
-        jupyter nbconvert --execute --output-dir='./docs' --to html "./src/RealtimeR0India.ipynb"
+        jupyter nbconvert --ExecutePreprocessor.timeout=6000 --execute --output-dir='./docs' --to html "./src/RealtimeR0India.ipynb"
     
     - name: Commit file
       run: |
