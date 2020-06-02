@@ -25,6 +25,7 @@ jobs:
     
     - name: Run Python application
       run: |
+        rm docs/state_wise_time_series_r0.csv
         python ./src/india_analysis.py
         jupyter nbconvert --output-dir='./docs' --to html "./src/RealtimeR0India.ipynb"
     
