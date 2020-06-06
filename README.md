@@ -1,4 +1,5 @@
-# COVID-19 Statewise R0 Analysis for India
+COVID-19 Statewise R0 Analysis for India
+===
 [Link to Dashboard](https://parijat29.github.io/COVID-19-India-R0-Analysis/)
 
 ### Data Refresh
@@ -17,6 +18,17 @@ The value of ![$R_0$](https://render.githubusercontent.com/render/math?math=%24R
 
 ### Limitations
   - Few States and United Territories might be missing in the chart. That is due to either insufficient data or very few confirmed cases in those areas.
+  
+News Coverage
+---
+This work was cited in the below news
+* [How dangerous is COVID-19 in the grand scheme of things](https://www.deccanherald.com/science-and-environment/how-dangerous-is-covid-19-in-the-grand-scheme-of-things-845993.html), [Deccan Herald](https://www.deccanherald.com/)
+
+Social Media Coverage
+---
+This work has been appreciated in social media by epidologists and public health professionals-
+* [Dr. Giridhar R Babu, Professor, Head, Life course Epidemiology| Physician](https://twitter.com/epigiri/status/1266424638592053248)
+* [Lipika Nanda, Vice President, Multisectoral Planning in Health, PHFI. Public Health Professional](https://twitter.com/NandaLipika/status/1266779511091126273)
 
 ### Credits
   - This work is based on [Estimating COVID-19's *R<sub>t</sub>* in Real-Time](https://github.com/k-sys/covid-19/blob/master/Realtime%20R0.ipynb) By [Kevin Systrom](https://github.com/k-sys)
