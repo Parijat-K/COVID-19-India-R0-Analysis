@@ -29,7 +29,8 @@ For a step by step calculation, please see this [page](./RealtimeR0India.html)
 News Coverage
 ---
 This work was cited in the below news
-* [How dangerous is COVID-19 in the grand scheme of things](https://www.deccanherald.com/science-and-environment/how-dangerous-is-covid-19-in-the-grand-scheme-of-things-845993.html), [Deccan Herald](https://www.deccanherald.com/)
+* [How dangerous is COVID-19 in the grand scheme of things](https://www.deccanherald.com/science-and-environment/how-dangerous-is-covid-19-in-the-grand-scheme-of-things-845993.html), [Deccan Herald](https://www.deccanherald.com/)  
+* [Covid slowing in Maharashtra and MP, shows infection rate analysis of govt data](https://theprint.in/health/covid-slowing-in-maharashtra-and-mp-shows-infection-rate-analysis-of-govt-data/436861/), [The Print](https://theprint.in/)
 
 Social Media Coverage
 ---
