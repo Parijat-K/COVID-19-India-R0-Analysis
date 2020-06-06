@@ -27,7 +27,7 @@ This work was cited in the below news
 Social Media Coverage
 ---
 This work has been appreciated in social media by epidologists and public health professionals-
-* [Dr. Giridhar R Babu, Professor, Head, Life course Epidemiology| Physician](https://twitter.com/epigiri/status/1266424638592053248)
+* [Dr. Giridhar R Babu, Professor, Head, Life course Epidemiology, Physician](https://twitter.com/epigiri/status/1266424638592053248)
 * [Lipika Nanda, Vice President, Multisectoral Planning in Health, PHFI. Public Health Professional](https://twitter.com/NandaLipika/status/1266779511091126273)
 
 ### Credits
