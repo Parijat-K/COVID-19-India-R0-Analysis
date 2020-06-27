@@ -3,7 +3,7 @@ COVID-19 Statewise R0 Analysis for India
 [Link to Dashboard](https://parijat29.github.io/COVID-19-India-R0-Analysis/)
 
 ### Data Refresh
-The chart is generated daily multiple times using GitHub actions. It is scheduled to run every 6th hour as per UTC timezone.
+The chart is generated daily multiple times using GitHub actions. It is scheduled to run every 6th hour as per UTC timezone.   
 ![Scheduled Refresh of Data](https://github.com/Parijat29/COVID-19-India-R0-Analysis/workflows/Scheduled%20Refresh%20of%20Data/badge.svg)
 
 ### What is *R<sub>t</sub>*?
