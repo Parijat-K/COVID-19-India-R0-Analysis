@@ -2,8 +2,6 @@
 
 <iframe src="output.html" style="width:100%; height:550px;"></iframe>  
 
-![Scheduled Refresh of Data](https://github.com/Parijat29/COVID-19-India-R0-Analysis/workflows/Scheduled%20Refresh%20of%20Data/badge.svg)  *This chart is refreshed multiple times each day and is in sync with current data.*
-
 ### What is *R<sub>t</sub>*?
 In any epidemic, ![$R_t$](https://render.githubusercontent.com/render/math?math=%24R_t%24) is the measure known as the effective reproduction number. It's the number of people who become infected per infectious person at time ***t***. The most well-known version of this number is the basic reproduction number: ![$R_0$](https://render.githubusercontent.com/render/math?math=%24R_0%24) when ![$t=0$](https://render.githubusercontent.com/render/math?math=%24t%3D0%24). However, ![$R_0$](https://render.githubusercontent.com/render/math?math=%24R_0%24) is a single measure that does not adapt with changes in behavior and restrictions.
 
@@ -25,3 +23,15 @@ The value of ![$R_0$](https://render.githubusercontent.com/render/math?math=%24R
 I'm not an Epidemiologist or scientist. I have only applied a modified version of a solution created by [Bettencourt & Ribeiro 2008](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0002185) to estimate real-time ![$R_0$](https://render.githubusercontent.com/render/math?math=%24R_0%24) using a Bayesian approach. While this paper estimates a static ***R*** value, here we introduce a process model with Gaussian noise to estimate a time-varying ![$R_0$](https://render.githubusercontent.com/render/math?math=%24R_0%24).
 
 For a step by step calculation, please see this [page](./RealtimeR0India.html)
+
+News Coverage
+---
+This work was cited in the below news
+* [How dangerous is COVID-19 in the grand scheme of things](https://www.deccanherald.com/science-and-environment/how-dangerous-is-covid-19-in-the-grand-scheme-of-things-845993.html), [Deccan Herald](https://www.deccanherald.com/)  
+* [Covid slowing in Maharashtra and MP, shows infection rate analysis of govt data](https://theprint.in/health/covid-slowing-in-maharashtra-and-mp-shows-infection-rate-analysis-of-govt-data/436861/), [The Print](https://theprint.in/)
+
+Social Media Coverage
+---
+This work has been appreciated in social media by epidologists and public health professionals-
+* [Dr. Giridhar R Babu, Professor, Head, Life course Epidemiology, Physician](https://twitter.com/epigiri/status/1266424638592053248)
+* [Lipika Nanda, Vice President, Multisectoral Planning in Health, PHFI. Public Health Professional](https://twitter.com/NandaLipika/status/1266779511091126273)
