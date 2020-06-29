@@ -224,15 +224,18 @@ final_results = None
 
 for state_name, result in results.items():
     print(state_name)
-    posteriors = result['posteriors'][max_likelihood_index]
-    hdis_90 = highest_density_interval(posteriors, p=.9)
-    hdis_50 = highest_density_interval(posteriors, p=.5)
-    most_likely = posteriors.idxmax().rename('ML')
-    result = pd.concat([most_likely, hdis_90, hdis_50], axis=1)
-    if final_results is None:
-        final_results = result
-    else:
-        final_results = pd.concat([final_results, result])
+    try:
+        posteriors = result['posteriors'][max_likelihood_index]
+        hdis_90 = highest_density_interval(posteriors, p=.9)
+        hdis_50 = highest_density_interval(posteriors, p=.5)
+        most_likely = posteriors.idxmax().rename('ML')
+        result = pd.concat([most_likely, hdis_90, hdis_50], axis=1)
+        if final_results is None:
+            final_results = result
+        else:
+            final_results = pd.concat([final_results, result])
+    except:
+        continue
     # clear_output(wait=True)
 
 print('Done.')
@@ -298,9 +301,14 @@ print("Storing final results as csv file")
 final_results.to_csv('./docs/state_wise_time_series_r0.csv')
 
 visibility = [False] * len(final_results.groupby('state')) * 4
+init_i = 0
 for i, (state_name, result) in enumerate(final_results.groupby('state')):
+    if state_name not in state_codes:
+        if i == init_i:
+            init_i += 1
+        continue
     try:
-        if i == 0:
+        if i == init_i:
             fig.add_trace(make_low_90_fig(result), row=1, col=1)
             fig.add_trace(make_high_90_fig(result), row=1, col=1)
             fig.add_trace(make_r0_fig(result), row=1, col=1)
