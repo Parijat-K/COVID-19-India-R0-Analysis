@@ -1,6 +1,6 @@
 COVID-19 Statewise R0 Analysis for India
 ===
-[Link to Dashboard](https://parijat29.github.io/COVID-19-India-R0-Analysis/)
+[Link to Dashboard](https://parijat-k.github.io/COVID-19-India-R0-Analysis/)
 
 ### Data Refresh
 The chart is generated daily multiple times using GitHub actions. It is scheduled to run every 6th hour as per UTC timezone.   
