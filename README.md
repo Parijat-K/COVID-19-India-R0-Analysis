@@ -1,5 +1,8 @@
 COVID-19 Statewise R0 Analysis for India
 ===
+
+> This project is being archived due to discontinuation of reliable data streams.
+
 [Link to Dashboard](https://parijat-k.github.io/COVID-19-India-R0-Analysis/)
 
 ### Data Refresh
